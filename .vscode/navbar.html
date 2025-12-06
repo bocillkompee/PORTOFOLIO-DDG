@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Arif Wardhana</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <a href="asset/cv-Arif.pdf" download="cvArif.pdf" class="download-cv-button">Download CV</a>
+
+   <nav class="navbar">
+      <div class="logo">Arif<span>Portofolio</span></div>
+      
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+      <div class="nav-icons">
+        <a href="https://www.instagram.com/arippp888_/" target="_blank" class="nav-icon">
+          <i data-feather="instagram"></i>
+        </a>
+        <a href="https://github.com/bocillkompee" target="_blank" class="nav-icon">
+          <i data-feather="github"></i>
+        </a>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Halo, Saya Arif Wardhana</h1>
+        <p>Web Developer & UI/UX Designer</p>
+        <p class="subtitle">Pelajar SMK Taruna Bhakti - X RPL 5</p>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-box">
+            <div class="about-text">
+              <p>
+                Saya adalah seorang pelajar yang sedang menempuh pendidikan di 
+                SMK Taruna Bhakti, tepatnya di kelas X RPL 5. Saya memiliki hobi 
+                yang sangat saya sukai yaitu bermain game dan coding.
+              </p>
+              <p>
+                Dengan ketertarikan dan semangat yang saya miliki dalam dunia 
+                teknologi dan pemrograman, saya berharap suatu hari nanti saya 
+                bisa menjadi seorang programmer yang handal dan profesional.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-icons">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" alt="Adobe Illustrator" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg" alt="Adobe After Effects" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" alt="Adobe Photoshop" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-cards">
+          <div class="project-card">
+            <img src="asset/logoinstagram.png" alt="Project 1" />
+            <h3>Logo Instagram</h3>
+            <p>Membuat logo instagram menggunakan Adobe Illustrator</p>
+          </div>
+          <div class="project-card">
+            <img src="asset/membuattodolist.png" alt="Project 2" />
+            <h3>Aplikasi To-Do List</h3>
+            <p>Aplikasi sederhana untuk mengelola daftar tugas harian dengan fitur penambahan, pengeditan, dan penghapusan tugas</p>
+          </div>
+          <div class="project-card">
+            <img src="asset/posterstopbullying.png" alt="Project 3" />
+            <h3>Desain Poster</h3>
+            <p>Membuat poster stop bullying</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="info-box">
+              <i data-feather="mail"></i>
+              <div>
+                <h4>Email</h4>
+                <p>arifwardhana4@email.com</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <i data-feather="phone"></i>
+              <div>
+                <h4>Nomer handphone</h4>
+                <p>+62 857 7676 8812</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <i data-feather="map-pin"></i>
+              <div>
+                <h4>Lokasi</h4>
+                <p>Depok</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" action="https://formspree.io/f/movrzoly" method="POST">
+            <input type="text" name="name" placeholder="Nama Lengkap" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="message" rows="5" placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; Arif Wardhana 2025</p>
+    </footer>
+    <script type="script.js" src="script/script.js"></script>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
